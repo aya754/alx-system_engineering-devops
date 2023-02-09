@@ -1,2 +1,2 @@
 #!/bin/bash
-find myDir -0x00-shell_basics \*.html
+find . -0x00-shell_basics *.html -print0 | rsync -av --files-from=- --from0 ../
