@@ -1,2 +1,2 @@
 #!/bin/bash
-less /betty/group
+less  /etc/group file
