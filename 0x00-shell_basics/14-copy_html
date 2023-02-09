@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -0x00-shell_basics *.html -print0 | rsync -av --files-from=- --from0 ../
+find . -name *.html -print0 | rsync -av --files-from=- --from0 ../
