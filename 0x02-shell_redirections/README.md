@@ -1,2 +1,2 @@
 #!/bin/bash
-alx-system_engineering-devops repo
+0x02-shell_redirections
